@@ -4,7 +4,7 @@ const Document = () => {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body className="max-h-screen h-full flex flex-col text-sm bg-white">
         <Main />
         <NextScript />
       </body>
