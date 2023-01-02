@@ -27,7 +27,7 @@ const ViewSingleHotel = ({ hotel }: { hotel: any }) => {
         Location: {hotel.city}, {hotel.country}
       </p>
       <div className="flex flex-col md:flex-row gap-2 w-full">
-        <div className="relative w-full min-h-[350px] max-w-[70vw] md:min-h-[400px]">
+        <div className="relative w-full min-h-[350px] md:max-w-[70vw] md:min-h-[400px]">
           <Image
             src={hotel.image}
             fill
