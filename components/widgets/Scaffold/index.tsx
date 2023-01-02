@@ -27,6 +27,7 @@ const Scaffold = ({
           <div className="flex">
             <Link
               href="/"
+              data-testid="test-logo"
               className={`font-black tracking-wide text-xl md:text-2xl ${logoFont.className}`}
             >
               Hotels&co

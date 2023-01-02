@@ -23,6 +23,7 @@ const Login = () => {
           <div className="mb-6">
             <label
               htmlFor="email"
+              data-testid="test-login-email"
               className="block mb-2 text-sm font-medium text-gray-900"
             >
               Email
@@ -37,6 +38,7 @@ const Login = () => {
           <div className="mb-6">
             <label
               htmlFor="password"
+              data-testid="test-login-password"
               className="block mb-2 text-sm font-medium text-gray-900 "
             >
               Password

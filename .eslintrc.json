@@ -17,7 +17,17 @@
     "plugin:security/recommended",
     "plugin:react-hooks/recommended"
   ],
-  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "overrides": [
+    // Only uses Testing Library lint rules in test files
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": ["plugin:testing-library/react"]
+    }
+  ],
+  "plugins": ["react", "@typescript-eslint", "prettier", "testing-library"],
   "rules": {
     "prettier/prettier": [
       "error",

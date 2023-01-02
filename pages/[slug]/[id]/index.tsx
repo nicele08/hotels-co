@@ -13,7 +13,7 @@ const SingleHotelPage = () => {
   const { data } = useSingleHotel(Number(router.query.id));
 
   React.useEffect(() => {
-    if (invisibleRef.current) {
+    if (router.query.id && invisibleRef.current) {
       invisibleRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   }, [router.query.id]);

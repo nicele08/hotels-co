@@ -1,0 +1,710 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unchanged pages renders index page unchanged 1`] = `
+<div>
+  <header
+    class="bg-white sticky shadow transition bg-opacity-95 z-50 flex flex-col items-center px-4 md:px-8 py-3 top-0 w-full"
+  >
+    <nav
+      class="flex justify-between items-center space-x-3 max-w-7xl w-full"
+    >
+      <div
+        class="flex"
+      >
+        <a
+          class="font-black tracking-wide text-xl md:text-2xl className"
+          data-testid="test-logo"
+          href="/"
+        >
+          Hotels&co
+        </a>
+      </div>
+      <form
+        class="flex relative flex-grow sm:px-12 md:px-24"
+        data-testid="test-search-form"
+      >
+        <label
+          class="text-sm font-medium text-gray-900 sr-only"
+          for="default-search"
+        >
+          Search
+        </label>
+        <div
+          class="flex relative flex-grow"
+        >
+          <div
+            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5 text-gray-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <input
+            class="outline-none block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+            id="default-search"
+            placeholder="Search..."
+            type="search"
+            value=""
+          />
+          <button
+            class="hidden md:block text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+      <a
+        class="rounded-full font-medium p-2 border border-blue-500 md:px-4 hover:bg-blue-500 hover:text-white"
+        href="/login"
+      >
+        Login
+      </a>
+    </nav>
+  </header>
+  <div
+    class="invisible"
+  />
+  <div
+    class="flex flex-col items-center p-4 md:px-8 bg-white border-gray-200 border-t w-full"
+  >
+    <main
+      class="w-full flex flex-col items-center max-w-7xl"
+    >
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8 w-full pb-12"
+      >
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+        <div
+          class="group flex flex-col rounded-2xl w-full"
+        >
+          <div
+            class="relative w-full min-h-[250px] rounded-2xl bg-gray-200 animate-pulse"
+          />
+          <div
+            class="flex flex-col"
+          >
+            <div
+              class="flex flex-col py-2"
+            >
+              <div
+                class="text-base md:text-xl font-bold truncate bg-gray-200 animate-pulse py-2"
+              />
+              <div
+                class="text-gray-600 truncate bg-gray-200 animate-pulse py-2 mt-1"
+              />
+            </div>
+            <div
+              class="font-bold bg-gray-200 animate-pulse py-2"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer
+    class="z-50 bg-white mt-auto w-full flex flex-col items-center border-t border-gray-200 px-4 md:px-8 py-2 bottom-0 sticky"
+  >
+    <div
+      class="flex gap-x-4 gap-y-2 md:gap-x-12 flex-wrap justify-between items-center space-x-3 w-full max-w-7xl"
+    >
+      <div
+        class="flex items-center space-x-3 md:space-x-6"
+      >
+        <p
+          class="text-slate-800"
+        >
+          © Hotels&co, 
+          2023
+          .
+        </p>
+        <p
+          class="text-slate-800"
+        >
+          Terms
+        </p>
+        <p
+          class="text-slate-800"
+        >
+          Privacy
+        </p>
+      </div>
+      <a
+        class="text-blue-500"
+        href="/login"
+      >
+        Login
+      </a>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Unchanged pages renders notFoundPage(404) page unchanged 1`] = `
+<div>
+  <header
+    class="bg-white sticky shadow transition bg-opacity-95 z-50 flex flex-col items-center px-4 md:px-8 py-3 top-0 w-full"
+  >
+    <nav
+      class="flex justify-between items-center space-x-3 max-w-7xl w-full"
+    >
+      <div
+        class="flex"
+      >
+        <a
+          class="font-black tracking-wide text-xl md:text-2xl className"
+          data-testid="test-logo"
+          href="/"
+        >
+          Hotels&co
+        </a>
+      </div>
+      <form
+        class="flex relative flex-grow sm:px-12 md:px-24"
+        data-testid="test-search-form"
+      >
+        <label
+          class="text-sm font-medium text-gray-900 sr-only"
+          for="default-search"
+        >
+          Search
+        </label>
+        <div
+          class="flex relative flex-grow"
+        >
+          <div
+            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5 text-gray-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <input
+            class="outline-none block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+            id="default-search"
+            placeholder="Search..."
+            type="search"
+            value=""
+          />
+          <button
+            class="hidden md:block text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+      <a
+        class="rounded-full font-medium p-2 border border-blue-500 md:px-4 hover:bg-blue-500 hover:text-white"
+        href="/login"
+      >
+        Login
+      </a>
+    </nav>
+  </header>
+  <div
+    class="invisible"
+  />
+  <div
+    class="flex flex-col items-center p-4 md:px-8 bg-white border-gray-200 border-t w-full"
+  >
+    <main
+      class="w-full flex flex-col items-center max-w-7xl"
+    >
+      <div
+        class="bg-slate-200 rounded-[30px] p-8 py-12 md:py-24 max-w-sm flex flex-col items-center w-full"
+      >
+        <p
+          class="text-4xl md:text-5xl tracking-wide font-bold"
+        >
+          404
+        </p>
+        <p
+          class="text-base text-center font-semibold pt-4"
+        >
+          This is not the web page you are looking for.
+        </p>
+        <a
+          class="bg-blue-500 text-white font-bold px-6 py-3 rounded mt-8"
+          href="/"
+        >
+          Back Home
+        </a>
+      </div>
+    </main>
+  </div>
+  <footer
+    class="z-50 bg-white mt-auto w-full flex flex-col items-center border-t border-gray-200 px-4 md:px-8 py-2 bottom-0 sticky"
+  >
+    <div
+      class="flex gap-x-4 gap-y-2 md:gap-x-12 flex-wrap justify-between items-center space-x-3 w-full max-w-7xl"
+    >
+      <div
+        class="flex items-center space-x-3 md:space-x-6"
+      >
+        <p
+          class="text-slate-800"
+        >
+          © Hotels&co, 
+          2023
+          .
+        </p>
+        <p
+          class="text-slate-800"
+        >
+          Terms
+        </p>
+        <p
+          class="text-slate-800"
+        >
+          Privacy
+        </p>
+      </div>
+      <a
+        class="text-blue-500"
+        href="/login"
+      >
+        Login
+      </a>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Unchanged pages renders serverError(500) page unchanged 1`] = `
+<div>
+  <header
+    class="bg-white sticky shadow transition bg-opacity-95 z-50 flex flex-col items-center px-4 md:px-8 py-3 top-0 w-full"
+  >
+    <nav
+      class="flex justify-between items-center space-x-3 max-w-7xl w-full"
+    >
+      <div
+        class="flex"
+      >
+        <a
+          class="font-black tracking-wide text-xl md:text-2xl className"
+          data-testid="test-logo"
+          href="/"
+        >
+          Hotels&co
+        </a>
+      </div>
+      <form
+        class="flex relative flex-grow sm:px-12 md:px-24"
+        data-testid="test-search-form"
+      >
+        <label
+          class="text-sm font-medium text-gray-900 sr-only"
+          for="default-search"
+        >
+          Search
+        </label>
+        <div
+          class="flex relative flex-grow"
+        >
+          <div
+            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5 text-gray-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+          <input
+            class="outline-none block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+            id="default-search"
+            placeholder="Search..."
+            type="search"
+            value=""
+          />
+          <button
+            class="hidden md:block text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+      <a
+        class="rounded-full font-medium p-2 border border-blue-500 md:px-4 hover:bg-blue-500 hover:text-white"
+        href="/login"
+      >
+        Login
+      </a>
+    </nav>
+  </header>
+  <div
+    class="invisible"
+  />
+  <div
+    class="flex flex-col items-center p-4 md:px-8 bg-white border-gray-200 border-t w-full"
+  >
+    <main
+      class="w-full flex flex-col items-center max-w-7xl"
+    >
+      <div
+        class="bg-slate-200 rounded-[30px] p-8 py-12 md:py-24 max-w-sm flex flex-col items-center w-full"
+      >
+        <p
+          class="text-4xl md:text-5xl tracking-wide font-bold"
+        >
+          500
+        </p>
+        <p
+          class="text-base text-center font-semibold pt-4"
+        >
+          Ooops! Something went wrong, try to reload your browser. If the error persists feel free to contact me:
+           
+          <a
+            class="text-blue-500 className"
+            href="mailto:celestin.niyindagiriye@andela.com"
+            title="Celestin Niyindagiriye"
+          >
+            celestin.niyindagiriye@andela.com
+          </a>
+        </p>
+        <button
+          class="bg-blue-500 text-white font-bold px-6 py-3 rounded mt-8"
+          type="button"
+        >
+          Reload
+        </button>
+      </div>
+    </main>
+  </div>
+  <footer
+    class="z-50 bg-white mt-auto w-full flex flex-col items-center border-t border-gray-200 px-4 md:px-8 py-2 bottom-0 sticky"
+  >
+    <div
+      class="flex gap-x-4 gap-y-2 md:gap-x-12 flex-wrap justify-between items-center space-x-3 w-full max-w-7xl"
+    >
+      <div
+        class="flex items-center space-x-3 md:space-x-6"
+      >
+        <p
+          class="text-slate-800"
+        >
+          © Hotels&co, 
+          2023
+          .
+        </p>
+        <p
+          class="text-slate-800"
+        >
+          Terms
+        </p>
+        <p
+          class="text-slate-800"
+        >
+          Privacy
+        </p>
+      </div>
+      <a
+        class="text-blue-500"
+        href="/login"
+      >
+        Login
+      </a>
+    </div>
+  </footer>
+</div>
+`;

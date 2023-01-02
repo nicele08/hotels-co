@@ -1,4 +1,4 @@
-import ky from 'ky-universal';
+import axios from 'axios';
 import {
   QueryFunction,
   useInfiniteQuery,
@@ -24,7 +24,7 @@ const fetchHotels: QueryFunction<IFetchResponse> = async ({
   if (search) {
     url += `&search=${search}`;
   }
-  const parsed: any = await ky(url).json();
+  const { data: parsed } = await axios.get(url);
   const items: any[] = parsed?.items || [];
 
   return {
@@ -41,12 +41,12 @@ const fetchHotels: QueryFunction<IFetchResponse> = async ({
 };
 
 const fetchSingleHotel = async (id: number) => {
-  const parsed: any = await ky(
+  const { data: parsed } = await axios.get(
     `${Keys.NEXT_PUBLIC_DEFAULT_API}/hotels/${id}`,
-  ).json();
-  const parsedHotelImages: any = await ky(
+  );
+  const { data: parsedHotelImages } = await axios.get(
     `${Keys.NEXT_PUBLIC_DEFAULT_API}/hotels/${id}/hotelImages`,
-  ).json();
+  );
 
   parsed.otherImages = parsedHotelImages;
 

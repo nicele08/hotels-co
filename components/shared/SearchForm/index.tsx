@@ -4,9 +4,16 @@ import React from 'react';
 
 const SearchForm = ({ zeroResults = false }) => {
   const router = useRouter();
-  const [search, setSearch] = React.useState(
-    `${router.query.search || ''}`,
-  );
+  const [search, setSearch] = React.useState('');
+
+  const searchQuery = router.query.search;
+
+  React.useEffect(() => {
+    if (typeof searchQuery === 'string') {
+      setSearch(searchQuery)
+    }
+  }, [searchQuery]);
+
   const handleSearch = (event: any) => {
     event.preventDefault();
     if (!search.trim()) {
@@ -27,6 +34,7 @@ const SearchForm = ({ zeroResults = false }) => {
   return (
     <form
       onSubmit={handleSearch}
+      data-testid="test-search-form"
       className="flex relative flex-grow sm:px-12 md:px-24"
     >
       <label
