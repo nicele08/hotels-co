@@ -10,7 +10,7 @@ const SearchForm = ({ zeroResults = false }) => {
 
   React.useEffect(() => {
     if (typeof searchQuery === 'string') {
-      setSearch(searchQuery)
+      setSearch(searchQuery);
     }
   }, [searchQuery]);
 
