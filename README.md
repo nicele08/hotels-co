@@ -12,8 +12,9 @@ Click to see a [Demo](https://hotels-co.vercel.app/) deployed on vercel.
 
 First clone repo:
 
-`git clone https://github.com/nicele08/hotels-co.git`
-
+```bash
+git clone https://github.com/nicele08/hotels-co.git
+```
 Set environment variables:
 
 Copy `.env_example` file and rename to `.env.local`
@@ -61,7 +62,6 @@ npm run build
 # or
 yarn build
 ```
-
 Start server:
 
 ```bash
@@ -69,6 +69,7 @@ npm run start
 # or
 yarn start
 ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Feedbacks
 
