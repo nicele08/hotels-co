@@ -29,7 +29,11 @@ jobs:
         run: yarn install
       - name: Eslint
         run: yarn lint
-      - name: Test
-        run: yarn test
       - name: Build
         run: yarn build
+      - uses: paambaati/codeclimate-action@v2.7.2
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+        with:
+          coverageCommand: yarn test:coverage
+          debug: true

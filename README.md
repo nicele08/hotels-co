@@ -1,3 +1,7 @@
+# Hotels&Co
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/b8d2c68d475b15aa7c2a/maintainability)](https://codeclimate.com/github/nicele08/hotels-co/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/b8d2c68d475b15aa7c2a/test_coverage)](https://codeclimate.com/github/nicele08/hotels-co/test_coverage)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
