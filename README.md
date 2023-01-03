@@ -1,6 +1,6 @@
 # Hotels&Co
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/b8d2c68d475b15aa7c2a/maintainability)](https://codeclimate.com/github/nicele08/hotels-co/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/b8d2c68d475b15aa7c2a/test_coverage)](https://codeclimate.com/github/nicele08/hotels-co/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1c3906c3c74087ba4104/maintainability)](https://codeclimate.com/github/nicele08/hotels-co/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/1c3906c3c74087ba4104/test_coverage)](https://codeclimate.com/github/nicele08/hotels-co/test_coverage)
 
 This is a [Next.js](https://nextjs.org/) project demonstrates infinite scroll pagination and other high performance features that allow the site to works better on low internet speed whith help of [React-query](https://react-query.tanstack.com/).
 
